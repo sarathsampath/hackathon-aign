@@ -4,7 +4,7 @@ import time
 openai.api_key = "---------api-key------------"
 
 training_file_response = openai.File.create(
-  file=open("modified_medi.jsonl", "rb"),
+  file=open("medi.jsonl", "rb"),
   purpose='fine-tune'
 )
 
