@@ -1,5 +1,5 @@
 
-from analytics-utilities import handle_insert, handle_search, flush_vector_db, handle_isolation
+from vector import handle_insert, handle_search, flush_vector_db, handle_isolation
 from flask import Flask, jsonify, request
 from flask import Flask
 from flask_cors import CORS

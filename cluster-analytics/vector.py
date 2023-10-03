@@ -7,9 +7,9 @@ from sklearn.cluster import KMeans
 import numpy as np
 from openai.embeddings_utils import get_embedding
 
-openai.api_key = "---------api-key------------"
+openai.api_key = "<open-api-key>"
 pinecone.init(      
-	api_key='-------pinecone-api-key---------',      
+	api_key='<pinecone-api-key>',      
 	environment='gcp-starter'      
 )
 

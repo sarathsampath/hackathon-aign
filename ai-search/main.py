@@ -1,5 +1,5 @@
 
-from vector-utilities import handle_insert, handle_search
+from utilities import handle_insert, handle_search
 from flask import Flask, jsonify, request
 from flask_cors import CORS
   
